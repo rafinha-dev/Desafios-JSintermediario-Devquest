@@ -34,3 +34,5 @@ inputText.forEach(input => {
 // se eu não usasse o forEach eu teria que usar duas funções, uma pra cada input. Da mesma forma que a minha seleção pelo query selector all fez com que isso fosse possível. 
 
 //usar (input.value !== "") foi valido, o parâmetro input serve como verificação de vazio ou não mesmo sem sem capturar o valor que tem dentro.
+
+// o evento change do addEventListner foi uma sacada

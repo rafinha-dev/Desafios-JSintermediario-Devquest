@@ -8,7 +8,7 @@
 
 let square = document.getElementById('square')
 
-document.addEventListener('click', msg)
+square.addEventListener('click', msg)
 
 function msg(){
     if(square.classList.contains('blue')){
