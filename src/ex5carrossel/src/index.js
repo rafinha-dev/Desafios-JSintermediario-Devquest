@@ -33,7 +33,35 @@ let main = document.querySelectorAll('.main')
 console.log(main)
 let imagemAtual = 0
 
-// laftArrow.addEventListener("ArrowLeft", arrow())
+// document.addEventListener("keydown", (event) =>{
+
+//     const key = event.key
+
+//     switch(event.key){
+//         case "ArrowLeft":
+//             if(imagemAtual === 0 &&){
+//                 return
+//             }
+//             main[imagemAtual].classList.remove("mostrar")
+//             imagemAtual-- 
+//             main[imagemAtual].classList.add("mostrar")
+//         break
+//         case "ArrowRight":
+
+//             if( imagemAtual === main.length - 1){
+//              return
+//             }
+//             esconderImagem()
+//             console.log(imagemAtual)
+//             imagemAtual++
+
+//             main[imagemAtual].classList.add("mostrar")
+
+//             opacityArrows()
+//         break
+//     }
+    
+// })
 laftArrow.addEventListener("click", function arrow(){
     if(imagemAtual === 0){
         return
