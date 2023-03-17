@@ -66,9 +66,10 @@ laftArrow.addEventListener("click", function arrow(){
     if(imagemAtual === 0){
         return
     }
-    main[imagemAtual].classList.remove("mostrar")
+    esconderImagem()
     imagemAtual-- 
     main[imagemAtual].classList.add("mostrar")
+    opacityArrows()
 })
 
 rightArrow.addEventListener("click", () =>{
