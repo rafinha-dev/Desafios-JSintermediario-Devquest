@@ -26,15 +26,24 @@ body{
     position: absolute;
     z-index: 1;
 }
-.laft{
+.left{
     left: 30px;
 }
 .rigth{
-    right: 30px;
+right: 50px;
 }
 .opacity{
     opacity: 0.6;
     cursor: default;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+    /* background-color: red; */
 }
 .arrows-end{
     opacity: 0.5;
@@ -42,7 +51,7 @@ body{
 .box{
     /* background-color: red; */
     min-width: 80%;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 140px;
     /* height: 100vh; */
 }
 

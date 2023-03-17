@@ -33,18 +33,50 @@ let main = document.querySelectorAll('.main')
 console.log(main)
 let imagemAtual = 0
 
+// laftArrow.addEventListener("ArrowLeft", arrow())
+laftArrow.addEventListener("click", function arrow(){
+    if(imagemAtual === 0){
+        return
+    }
+    main[imagemAtual].classList.remove("mostrar")
+    imagemAtual-- 
+    main[imagemAtual].classList.add("mostrar")
+})
+
 rightArrow.addEventListener("click", () =>{
-    // esconderImagem()
+
+    if( imagemAtual === main.length - 1){
+        return
+    }
+    esconderImagem()
     //só consigo passar o array pra clique e agora?
     console.log(imagemAtual)
     imagemAtual++
 
     main[imagemAtual].classList.add("mostrar")
+
+    opacityArrows()
 })
 
 function esconderImagem(){
     const imagemAberta = document.querySelector('.mostrar')
     imagemAberta.classList.remove('mostrar')
+}
+
+function opacityArrows(){
+ const notFirst = imagemAtual !== 0
+ if(notFirst){
+    laftArrow.classList.remove("opacity")
+ } else{
+    laftArrow.classList.add("opacity")
+ }
+
+ const lastImage = imagemAtual !== 0 && imagemAtual === main.length - 1
+ if(lastImage){
+    rightArrow.classList.add("opacity")
+ }else{
+    rightArrow.classList.remove("opacity")
+ }
 }
 // arrows[1].addEventListener('click', () => {
 //     alert('olá')
