@@ -24,21 +24,21 @@ Porem no foreach por que são duas setas.As coisas não estavam funcionando e eu
 // dar um jeito de usar elas com um contador de 0 a 3 para trocar as telas com a classe mostrar, 
 // o ultimo de um lado e o primeiro do outro tira opacidade da imagem
 
+let laftArrow = document.getElementById('laft-arrow')
+console.log(laftArrow)
 // capturar as setinhas
-let arrows = document.querySelectorAll('.arrows')
-console.log(arrows)[0]
-
+let rightArrow = document.getElementById('right-arrow')
+console.log(rightArrow)
 let main = document.querySelectorAll('.main')
-
+console.log(main)
 let imagemAtual = 0
 
-arrows[1].addEventListener("click", () =>{
+rightArrow.addEventListener("click", () =>{
     // esconderImagem()
-    
+    //só consigo passar o array pra clique e agora?
     console.log(imagemAtual)
     imagemAtual++
 
-    console.log(imagemAtual)
     main[imagemAtual].classList.add("mostrar")
 })
 

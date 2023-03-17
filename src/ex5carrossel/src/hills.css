@@ -1,5 +1,6 @@
 .background-hills{
     background-image: url(./assets/imagem\ \(2\).svg);
+    opacity: 0;
 }
 .info-hills{ 
     color: #A63A17;

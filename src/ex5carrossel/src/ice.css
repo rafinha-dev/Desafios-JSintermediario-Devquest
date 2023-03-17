@@ -1,5 +1,6 @@
 .background-ice{
     background-image: url(./assets/imagem\ \(3\).svg);
+    opacity: 0;
 }
 .info-ice{
     color: #10ACDD;

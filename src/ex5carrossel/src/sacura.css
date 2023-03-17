@@ -1,5 +1,6 @@
 .background-sakura{
     background-image: url(./assets/imagem.svg);
+    opacity: 0;
 }
 .info-sakura{
     color: #C50000;
