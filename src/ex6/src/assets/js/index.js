@@ -20,10 +20,11 @@ function response(num){
 
     if(i[num] === false){
         hideAll()
-        
+
     }else if(i[num] === true){
         
         hideAll()
+        arrows[num].classList.add("quest-response")
         i[num] = false
         arrows[num].classList.remove("hide")
         colorArrows[num].setAttribute('src', './src/assets/images/seta aberta.png')
@@ -36,6 +37,7 @@ function hideAll(){
     for(let contador = 0; contador < arrows.length ; contador ++){
         // console.log(contador)
         i[contador] = true
+        arrows[contador].classList.remove("quest-response")
         arrows[contador].classList.add("hide")
         colorArrows[contador].setAttribute('src', './src/assets/images/Design sem nome (5) 1.svg')
     }
