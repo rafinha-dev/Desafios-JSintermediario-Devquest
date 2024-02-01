@@ -112,5 +112,5 @@ function opacityArrows(){
 // })
 // arrows[0].addEventListener('click', () => {
 //     alert('olá')
-// })
+// }) 
 

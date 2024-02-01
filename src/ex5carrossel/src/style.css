@@ -109,7 +109,27 @@ right: 50px;
     .box-texto{
         max-height: 100%;
     }
+    .text-box{
+        max-width: 500px;
+        margin-left: -150px;
+    }
+    .main{
+        justify-content: center;
+    }
 }
 @media(max-width: 768px){
-    /* letras e botões */
+    .text-box{
+        padding: 2.5rem 2rem;
+        max-width: 300px;
+        
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+    .text-box a{
+        font-size: 2rem;
+    }
+    .text-box .title{
+        font-size: 3.4rem;
+    }
 }
