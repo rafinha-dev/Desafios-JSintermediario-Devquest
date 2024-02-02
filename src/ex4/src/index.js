@@ -12,16 +12,24 @@
 // Se o tamanho do valor do conteúdo for igual a zero a cor sai
 
 let inputName = document.querySelector('#name')
-
 let inputTel = document.querySelector('#tel')
 
 inputName.addEventListener('input', (e) =>{ 
-    if(inputName.value.lenght !== 0){
-        inputName.style.backgroundColor = "red"
-    }else if(inputName.value.lenght == 0){
-        inputName.style.backgroundColor = "white"
-    }
+    let content = e.target
+    change(content)
+
 })
+
 inputTel.addEventListener('input', (e) =>{
-    console.log( e.target.value)
+    let content = e.target
+    change(content)
 }) 
+
+const change = (content)=>{
+    if(content.value !== "" ){
+        content.classList.add('border')
+
+    }else{
+        content.classList.remove('border')
+    }
+}
