@@ -51,6 +51,7 @@ hr{
     justify-content: space-between;
     align-items: center;
     padding: 0 1.2rem 0 0;
+    min-width: 400px;
     /* background-color: red; */
 }
 .quest-title{
@@ -96,5 +97,51 @@ hr{
     }
     to{
         margin-top: 0rem;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        padding: 3rem;
+    }
+    .main{
+        /* width: 400px; */
+        justify-content: center;
+        min-width: auto;
+        gap: 2rem;
+
+    
+    }
+    .text{
+        max-width: 300px;
+        /* overflow: scroll; */
+    }
+    .quest-title{
+        max-width: 100px;
+    }
+    .quest{
+        min-width: auto;
+        max-width: 300px;
+    }
+}
+@media (max-width: 768px){
+    .main{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .quest{
+        margin: auto;
+    }
+    .image{
+        margin: 0;
+    }
+    .text{ 
+        padding: 0;
+    }
+    h2{
+        text-align: center;
+    }
+    .quest-response{ 
+        padding: 0;
     }
 }

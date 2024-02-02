@@ -9,12 +9,21 @@
     <style>
         body{
             display: flex;
+            justify-content: center;
+        }
+        main{
+            /* background-color: red; */
+            display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            max-width: 700px;
+           
         }
         img{
-            max-width: 800px;
+            max-width: 700px;
+            margin: 1rem;
+            box-shadow: 10px 10px 10px black;
         }
         @media (max-width: 768px){
             img{
@@ -23,11 +32,15 @@
         @media (max-width: 460px){
             img{
                 max-width: 300px;
+                
             }
         }
         }
     </style>
 <body>
-    <a href="./src/ex5carrossel/index.html"> <img src="./src/ex5carrossel/src/assets/Peek 2024-02-01 17-25.gif" alt=""></a>
+    <main>
+        <a href="./src/ex5carrossel/index.html"> <img src="./src/ex5carrossel/src/assets/Peek 2024-02-01 17-25.gif" alt="git com exercício do absolute"></a>
+        <a href="./src/ex4/index.html"><img src="./src/ex4/src/soluçãoPronta/working.gif" alt="Gif com transição de input"></a>
+    </main>
 </body>
 </html>
