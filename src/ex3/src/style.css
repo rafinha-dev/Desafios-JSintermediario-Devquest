@@ -8,3 +8,10 @@
     height: 100px;
     background-color: blue;
 }
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
