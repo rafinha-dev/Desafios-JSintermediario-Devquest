@@ -38,7 +38,7 @@ body{
 .text{
     padding: 0 3.7rem 0 0;
 }
-h2{
+h1{
     font-weight: 700;
     font-size: 2.5rem;
     margin-bottom: 1.4rem;
@@ -46,7 +46,7 @@ h2{
 hr{
     margin: 0 0 1.5rem 0;
 }
-.quest{
+.question{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@ hr{
     line-height: 2rem;
     margin: 0 4rem 1rem 0;
 }
-.quest-response{
+.show{
     font-weight: 300;
     font-size: 1.5rem;
     padding: 0 8rem 0 0;
@@ -113,15 +113,12 @@ hr{
     
     }
     .text{
-        max-width: 300px;
+        max-width: 30rem;
         /* overflow: scroll; */
     }
-    .quest-title{
-        max-width: 100px;
-    }
-    .quest{
+    .question{
         min-width: auto;
-        max-width: 300px;
+        max-width: 30rem;
     }
 }
 @media (max-width: 768px){
@@ -129,7 +126,7 @@ hr{
         flex-wrap: wrap;
         align-items: center;
     }
-    .quest{
+    .question{
         margin: auto;
     }
     .image{
@@ -138,10 +135,10 @@ hr{
     .text{ 
         padding: 0;
     }
-    h2{
+    h1{
         text-align: center;
     }
-    .quest-response{ 
+    .show{ 
         padding: 0;
     }
 }

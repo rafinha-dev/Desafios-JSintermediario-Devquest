@@ -16,44 +16,43 @@
 <body>
     <main class="main">
         <figure>
-            <img class="image" src="./src/assets/images/imagem.svg" alt="">
+            <img class="image" src="./src/assets/images/imagem.svg" alt="Homem segurando objetos tecnologicos">
         </figure>
         <aside class="text">
-            <h2>FAQ</h2>
-            <div>
-                <div class="quest">
-                    <p class="quest-title" >Lorem ipsum dolor sit  amet amet?</p>
-                    <a href="#" onclick="response(0)"  >
-                        <img class="color-arrow" src="./src/assets/images/Design sem nome (5) 1.svg" alt="Seta para baixo para resposta da pergunta">
-                    </a>
+            <h1>FAQ</h1>
+            <section>
+                <div class="question">
+                    <h2 class="quest-title" >Lorem ipsum dolor sit  amet amet?</h2>
+                    <img class="color-arrow" src="./src/assets/images/Design sem nome (5) 1.svg" alt="Seta 0 para baixo para resposta da pergunta"
+                    onclick="response(0)">
                 </div>
-                <p class="acordeon quest-response">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere temporibus! Iure laboriosam tenetur sit temporibus porro atque </p>
+                <p class="acordeon show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere temporibus! Iure laboriosam tenetur sit temporibus porro atque </p>
                 <!-- falta escorrer com suavidade para baixo -->
-            </div>
+            </section>
             <hr>
-            <div>
-                <div class="quest">
-                    <p class="quest-title" >Lorem ipsum dolor sit  amet amet?</p>
-                    <a href="#" onclick="response(1)" >
-                        <img class="color-arrow" src="./src/assets/images/Design sem nome (5) 1.svg" alt="Seta para baixo para resposta da pergunta">
-                        <img src="" alt="">
-                        
-                    </a>
+            <section>
+                <div class="question" onclick="response(1)">
+                    <h2 class="quest-title" >Lorem ipsum dolor sit  amet amet?</h2>
+                    <img class="color-arrow" src="./src/assets/images/Design sem nome (5) 1.svg" alt="Seta 1 para baixo para resposta da pergunta">
                 </div>
                 <p class="acordeon hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere temporibus! Iure laboriosam tenetur sit temporibus porro atque </p>
-            </div>
+            </section>
             <hr>
-            <div>
-                    <div class="quest"> 
-                    <p class="quest-title" >Lorem ipsum dolor sit  amet amet?</p>
-                    <a href="#" onclick="response(2)" >
-                        <img class="color-arrow" src="./src/assets/images/Design sem nome (5) 1.svg" alt="Seta para baixo para resposta da pergunta">
-                    </a>
+            <section>
+                <div class="question" onclick="response(2)"> 
+                    <h2 class="quest-title" >Lorem ipsum dolor sit  amet amet?</h2>          
+                    <img class="color-arrow" src="./src/assets/images/Design sem nome (5) 1.svg" alt="Seta 2 para baixo para resposta da pergunta">
                 </div>
                 <p class="acordeon hide" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere temporibus! Iure laboriosam tenetur sit temporibus porro atque </p>
-            </div>
+            </section>
         </aside>
     </main>
+
+    <!-- a animação poderia ter sido feita com overflow hiden ao invez de animation poderia ter colocado apenas o transition, muito mais simples -->
+
+    <!-- colocando a chamada manualmente com numeração, ou colocando um listner com data para as classes contendo o número da div, também é possível que entre na estrutura indicando onde irá exconder a resposta -->
+
+    <!-- checkbox radio ou checkbox também é uma forma de usar a aplicação, talvez usando js só para aplicar a classe no elemento marcado. -->
 
     <script src="./src/assets/js/index.js"></script>
 </body>
