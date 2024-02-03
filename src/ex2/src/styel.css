@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+p{
+    font-size: 1.5rem;
+    padding: 3rem;
+    max-width: 30rem;
+
+}
+code{
+    font-size: 1.4rem;
+}
+
+.btn{
+    width: 10rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+#result{
+    font-size: 2rem;
+}
