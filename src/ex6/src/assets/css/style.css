@@ -105,34 +105,22 @@ hr{
         padding: 3rem;
     }
     .main{
-        /* width: 400px; */
+        flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
         min-width: auto;
         gap: 2rem;
-
-    
-    }
-    .text{
-        max-width: 30rem;
-        /* overflow: scroll; */
     }
     .question{
         min-width: auto;
         max-width: 30rem;
-    }
-}
-@media (max-width: 768px){
-    .main{
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .question{
         margin: auto;
     }
     .image{
         margin: 0;
     }
     .text{ 
+        max-width: 30rem;
         padding: 0;
     }
     h1{

@@ -1,7 +1,5 @@
 /* ao clicar em uma pergunta deve aconteceruma animação de acordeon para abrir o iteme mostrar o texto escondido, e a seta devemudar de cor. */
-
 /* ao clicar em um item para abri-lo todos osoutros itens devem ser fechados. */ 
-
 /* Referência do que é um efeito acordeonhttps://www.netflix.com/br/ na seção"Perguntas Frequentes".
 Pontos de atenção:
 https://www.figma.com/file/zBKnYG9UNdUiIr8ClQTWSG/?node-id=3%3A3
