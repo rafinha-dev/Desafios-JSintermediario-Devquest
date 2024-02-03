@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+   
+}
+img{
+    max-width: 700px;
+    margin: 1rem;
+    box-shadow: 10px 10px 10px black;
+}
+@media (max-width: 768px){
+    img{
+        max-width: 430px;
+    }
+}
+@media (max-width: 460px){
+    img{
+        max-width: 300px;
+        
+    }
+}

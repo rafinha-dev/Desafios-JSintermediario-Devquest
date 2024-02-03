@@ -1,0 +1,22 @@
+
+.quadrado1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.quadrado2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.troca{
+    background-color: yellow;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(235, 212, 183);
+}
