@@ -47,7 +47,10 @@ p{
     box-shadow: none;
     padding: 0;
     margin: 0;
-    transform: translate(0, 20%);
+    
+}
+.archive{
+    text-align: center;
 }
 .solutions{
     border-bottom: 1px solid black;
@@ -56,6 +59,17 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+figure{
+    position: relative;
+}
+figcaption{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
 }
 a{
     font-size: 1.6rem;
