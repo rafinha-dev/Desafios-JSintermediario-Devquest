@@ -76,6 +76,9 @@ a{
     color:yellowgreen ;
     font-family: "Protest Riot", sans-serif;
 }
+.audio{
+    margin: 1rem 0;
+}
 @media (max-width: 768px){
     img{
         max-width: 430px;
