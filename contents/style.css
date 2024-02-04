@@ -1,6 +1,12 @@
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./bar.gif);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size:contain;
+    color: rgb(0, 0, 0);
 }
 main{
     /* background-color: red; */
@@ -9,19 +15,48 @@ main{
     justify-content: center;
     align-items: center;
     max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.468);
+    border-radius: 10px;
+    padding: 4rem;
    
+}
+h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 1.8rem;
 }
 img{
     max-width: 700px;
     margin: 1rem;
     box-shadow: 10px 10px 10px black;
 }
+p{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.401);
+    padding: 2rem;
+    border-radius: 1rem;
+}
 .download{
     max-width: 2rem;
     box-shadow: none;
     padding: 0;
     margin: 0;
-    transform: translate(0, 30%);
+    transform: translate(0, 20%);
+}
+.solutions{
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+a{
+    font-size: 1.6rem;
+    color:yellowgreen ;
+    font-family: "Protest Riot", sans-serif;
 }
 @media (max-width: 768px){
     img{
