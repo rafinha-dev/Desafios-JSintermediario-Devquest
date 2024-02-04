@@ -52,6 +52,10 @@ p{
 .solutions{
     border-bottom: 1px solid black;
     padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 a{
     font-size: 1.6rem;
@@ -67,5 +71,16 @@ a{
     img{
         max-width: 300px;
         
+    }
+    main{
+        padding: 0 0 0 1rem;
+    }
+    p{
+        padding: 0.5rem;
+        font-size: 1.3rem;
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
     }
 }

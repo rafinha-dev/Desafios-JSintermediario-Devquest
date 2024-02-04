@@ -37,12 +37,15 @@
 
             <p>Por fim coloquei um código alternativo novo. O primeiro eu fiz com chamadas dentro do HTML como explicado acima, já o segundo consegui usar o listner fazendo um array e iterando dentro dos elementos com um lister dentro do forEach. Com o indice informado pelo forEach foi possível entrar dentro da div certa para fazer a modificação evitando ter que passar dentro de todo o código graças ao callback.</p>
 
-            <a href="./src/ex6/src/assets/document/Desafio HTML + CSS + JS Intermediário - acordeon.pdf" 
-            type="download" 
-            download="PDF desafio nº 5">
-            Desafio download 
-            <img class="download" src="./contents/download-solid.svg" alt="Download do desafio">
+            <div>
+
+                <a href="./src/ex6/src/assets/document/Desafio HTML + CSS + JS Intermediário - acordeon.pdf" 
+                type="download" 
+                download="PDF desafio nº 5">
+                Desafio download 
+                <img class="download" src="./contents/download-solid.svg" alt="Download do desafio">
             </a> 
+        </div>
         </div>
 
         <div class="solutions">
@@ -57,11 +60,14 @@
             Os botões sobrepões todas as imagens e são os mesmos do inicio ao fim, diferente das divs mostradas abaixo deles, e essa foi minha principal dificuldade, pois tentei criar um botão para cada div e toda vez que trocava neles também trocava o botão. A solução para isso foi colocar os botões no topo fora de todas as divs, com position absolute. <br>
             A lógica dos botões é bem simples, já que o array vai de 0 a 3 e só temos 4 imagens, caso passasse para a imagem 4 estaria vazio, pois receberia opacity 0. Foi colocado um if com -1 só recebendo 3 cliques cada botão. Cada um deles tem um listner diferente. Enquanto um adiciona +1 no array para adicionar a classe o outro recebe -1. E caso o indice tenha chegado ao final é chamada uma função que tira a opacidade da setinha indicando que chegou ao fim.
             </p>
+            <div>
+
                 <a href="./src/ex5carrossel/src/document/exercicio-js-intermediario-ex5.pdf" 
                 type="download" 
                 download="Exercício carrossel">
                 Desafio download
                 <img class="download" src="./contents/download-solid.svg" alt="Download desafio"></a>
+            </div>
         </div>
 
         <div class="solutions">
