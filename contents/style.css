@@ -1,3 +1,12 @@
+:root{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -7,6 +16,7 @@ body{
     background-attachment: fixed;
     background-size:contain;
     color: rgb(0, 0, 0);
+    
 }
 main{
     /* background-color: red; */
@@ -14,7 +24,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
+    max-width: 75rem;
     background-color: rgba(255, 255, 255, 0.468);
     border-radius: 10px;
     padding: 4rem;
@@ -80,24 +90,39 @@ a{
     margin: 1rem 0;
 }
 @media (max-width: 768px){
+    h1{
+        text-align: center;
+    }
+    body{
+        padding: 1rem;
+    }
     img{
         max-width: 430px;
     }
 }
 @media (max-width: 460px){
+    body{
+        /* overflow: hidden; */
+        flex-wrap: wrap;
+        padding: 0;
+    }
     img{
-        max-width: 300px;
+        max-width: 28rem;
         
     }
     main{
-        padding: 0 0 0 1rem;
+        padding: 0 0 0 0;
+        margin-top: 2rem;
     }
     p{
-        padding: 0.5rem;
+        max-width: 28rem;
+        padding: 1rem 1rem 0 1rem;
         font-size: 1.3rem;
+        border-radius: 4px;
+        margin: 1rem 1rem 0;
     }
     h1{
         font-size: 2rem;
-        text-align: center;
+        margin: 2rem;
     }
 }
