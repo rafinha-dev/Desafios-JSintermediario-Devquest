@@ -132,4 +132,19 @@ right: 50px;
     .text-box .title{
         font-size: 3.4rem;
     }
+   
+}
+@media(max-width: 450px){
+    .img-width{
+        width: 30px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 30%;
+    
+    }
+    .img-left{
+        float: left;
+    }
+    .arrows{
+        align-items: start;
+    }
 }
